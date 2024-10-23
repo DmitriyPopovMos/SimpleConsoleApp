@@ -22,7 +22,7 @@ public class Main {
         /* Номер пропуска для нового Контакта генерируется автоматически, его надо добавить в Конструктор */
 //        PassNumberGenerator passNum = new PassNumberGenerator();
 //        System.out.println(passNum.setPassNumber().replace(",", "").replace(" ", ""));
-
+exit
         /* Создаём новые Контакты */
         LinkedHashMap<String, Contacts> map = new LinkedHashMap<>();
         Contacts cont1 = new Contacts("Ivan", "Petrov", "8A804730");           /* При попытке ввести некорректный Номер пропуска появляется предупреждение об ошибке (Exception) */
